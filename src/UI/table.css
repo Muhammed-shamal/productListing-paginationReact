@@ -1,0 +1,111 @@
+/* Set the maximum height to show about 3 lines of text */
+/* .description-container {
+    max-height: 3em; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+   */
+
+
+/* Add this CSS to your stylesheet or component */
+/* Add some vertical padding to the table rows */
+.table tbody tr {
+  padding: 10px 0; /* Adjust the amount of padding as needed */
+}
+
+/* Style for even rows (optional) */
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Example background color for even rows */
+}
+
+/* Add this CSS to your stylesheet or component */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-item {
+  list-style: none;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid #b8c1cc;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.page-item:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.active {
+  background-color: #007bff;
+  color: white;
+}
+
+
+.responsive-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('./images//down-arrow.png'); /* You can use your own arrow icon */
+  background-repeat: no-repeat;
+  background-position: right center;
+  cursor: pointer;
+}
+
+/* Style the dropdown arrow */
+.responsive-select::after {
+  content: "\25BC";
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+
+
+.responsive-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('./images/down-arrow.png'); /* You can use your own arrow icon */
+  background-repeat: no-repeat;
+  background-position: right center;
+  cursor: pointer;
+}
+
+/* Style the dropdown arrow */
+.responsive-select::after {
+  content: "\25BC";
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
